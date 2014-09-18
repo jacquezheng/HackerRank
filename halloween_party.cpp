@@ -7,10 +7,10 @@ int main() {
     cin >> num_test;
     
     for(int i = 0; i<num_test; i++){
-        int cut;
+        long int cut;
         cin >> cut;
-        int col = cut/2;
-        int row = cut - col;
+        long int col = cut/2;
+        long int row = cut - col;
         cout << col*row << endl;
     }
     return 0;
